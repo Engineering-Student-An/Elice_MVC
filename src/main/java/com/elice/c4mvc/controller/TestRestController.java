@@ -14,5 +14,6 @@ public class TestRestController {
         System.out.println("password = " + password);
         System.out.println("로그인 완료");
         return "200 OK";
+
     }
 }
