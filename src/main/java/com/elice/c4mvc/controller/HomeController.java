@@ -8,7 +8,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @GetMapping("")
-    public String home() {
+    public String index() {
         return "index";
+    }
+
+    @GetMapping("/about")
+    public String getAboutPage() {
+        return "about";
+    }
+
+    @GetMapping("/home")
+    public String home() {
+        return "home";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/js-practice")
+    public String jsPage() {
+        return "jsPage";
     }
 }

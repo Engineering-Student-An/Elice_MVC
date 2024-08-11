@@ -1,0 +1,12 @@
+/* # : id, . : 클래스 등은 선택자 */
+#title {
+    background-color: red;
+    color: white;
+}
+.list-item {
+    color: #f510b3;
+}
+.selected {
+    font-weight: 900;
+    font-size: large;
+}

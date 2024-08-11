@@ -1,11 +1,133 @@
-
 <!DOCTYPE HTML>
-<html>
+<html lang="ko">
 <head>
-    <title>Hello 페이지</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <title>Index 페이지</title>
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-<h1>안녕하세요.</h1>
+    <h1 id="title">Index 페이지&nbsp;<img src="https://elice.io/images/elice_logo.svg" alt="엘리스로고"/></h1>
+    <p>안녕하세요. Index 페이지 입니다.</p>
+    <hr/>
+
+    <p>id : 고유한 이름</p>
+    <p>name : 공통적 이름</p>
+    <p>class : 디자인과 관련된 반영속성값을 넣을때</p>
+    <button class="" id="button1" name="">버튼1</button>
+    <button id="button2">버튼2</button>
+<!--    <button id="button1" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">-->
+<!--        버튼-->
+<!--    </button>-->
+    <br/>
+    <hr/>
+
+    <h3>a 태그</h3>
+    <div><a href="https://google.com" target="_blank">구글로 이동</a></div>
+    <div><a href="https://naver.com" target="_blank">네이버로 이동</a></div>
+    <div><a href="https://daum.net" target="_blank">다음으로 이동</a></div>
+    <br/><br/>
+    <hr/>
+
+    <h3>form 태그</h3>
+    <form action="/login" method="POST" name="login">
+        <div>
+            <label for="id">이메일</label>
+            <input type="email" id="id" placeholder="아이디를 입력해주세요."/>
+        </div>
+        <div>
+            <label for="password">패스워드</label>
+            <input type="password" id="password" placeholder="패스워드를 입력해주세요."/>
+        </div>
+        <div>
+            <label for="radio_button">라디오 버튼</label>
+            <input type="radio" id="radio_button">
+        </div>
+        <div>
+            <label for="checkbox_button">체크박스 버튼</label>
+            <input type="checkbox" id="checkbox_button">
+        </div>
+        <div>
+            <label for="input_button">input 버튼</label>
+            <input type="button" id="input_button" value="버튼을 클릭하세요!">
+        </div>
+        <textarea name="contents" placeholder="내용을 입력해주세요" cols="30" rows="10"></textarea>
+    </form>
+    <br/><br/>
+    <hr/>
+
+    <h3>table 태그</h3>
+    <table border="10">
+        <tr>
+            <th>column1</th>
+            <th>column2</th>
+            <th>column3</th>
+        </tr>
+        <tr>
+            <td>data1-1</td>
+            <td>data1-2</td>
+            <td>data1-3</td>
+        </tr>
+        <tr>
+            <td>data2-1</td>
+            <td>data2-2</td>
+            <td>data2-3</td>
+        </tr>
+    </table>
+    <br/><br/>
+    <hr/>
+
+    <h3>이미지태그</h3>
+    <img style="width: 300px; height:auto"  src="https://images.unsplash.com/photo-1722543510591-9ae8d3f49b9b?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="해바라기">
+    <br/><br/>
+    <hr/>
+
+    <h1>h1 태그</h1>
+    <h2>h2 태그</h2>
+    <h3>h3 태그</h3>
+    <h4>h4 태그</h4>
+    <h5>h5 태그</h5>
+    <h6>h6 태그</h6>
+    <br/><br/>
+    <hr/>
+
+    <p>p 태그</p>
+    <br/><br/>
+    <hr/>
+
+    <h3>순서가 없는 리스트 태그</h3>
+    <ul>
+        <li class="list-item">list 1</li>
+        <li class="list-item">list 2</li>
+        <li class="list-item selected">list 3</li>
+    </ul>
+    <br/><br/>
+    <hr/>
+
+    <h3>순서가 있는 리스트 태그</h3>
+    <ol>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ol>
+    <br/><br/>
+    <hr/>
+
+    <h3>div : Block 수준의 컨테이너 요소</h3>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <br/><br/>
+    <hr/>
+
+    <h3>span : Inline 수준의 컨테이너 요소</h3>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <br/><br/>
+    <hr/>
 </body>
+
 </html>
